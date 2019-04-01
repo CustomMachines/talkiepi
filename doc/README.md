@@ -132,24 +132,7 @@ Install drivers with these commands:
 ~~~
 $git clone https://github.com/respeaker/seeed-voicecard
 $cd seeed-voicecard
-$sudo ./install.sh 2mic
-~~~
-
-Edit the ALSA configuration:
-
-~~~
-$cp asound_2mic.conf ~/.asoundrc
-$cd
-$nano ~/.asoundrc
-~~~
-
-Change the two occurrences of **"hw:0,0"** to **"hw:1,0"**.
-
-Save (CTRL-O) and exit (CTRL-X).
-
-Reboot:
-
-~~~
+$sudo ./install.sh
 $sudo reboot
 ~~~
 
